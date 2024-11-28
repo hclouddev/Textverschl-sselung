@@ -46,7 +46,7 @@ void print_bits(char *text) {
 int main() {
     char toencrypt[MAX_TEXT_LENGTH + 1] = "";
     char buffer[256];
-    FILE *file = fopen("C:/msys64/home/lukas/projects/Name_enc.txt", "r");
+    FILE *file = fopen("PFAD HINZUFÜGEN", "r");
     if (file == NULL) {
         printf("Fehler beim lesen der Client-Datei.\n");
         return 1;
